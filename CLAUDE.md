@@ -82,10 +82,42 @@ git branch
 git status
 ```
 
+## Documentation Structure
+
+### `/docs` Directory
+
+All project documentation is organized in the `/docs` directory:
+
+- **`/docs/backlog`**: Product backlog, user stories, and feature requests
+- **`/docs/prds`**: Product Requirements Documents with detailed feature specifications
+- **`/docs/architecture`**: System architecture, technical design documents, and diagrams
+- **`/docs/decisions`**: Architecture Decision Records (ADRs) for important technical decisions
+
+### When to Update Documentation
+
+**Update documentation when:**
+- Starting a new major feature (create a PRD)
+- Making architectural decisions (create an ADR)
+- Changing system design (update architecture docs)
+- Adding items to the backlog
+
+**ADR Guidelines:**
+- Number ADRs sequentially: ADR-001, ADR-002, etc.
+- Include: Context, Decision, Alternatives Considered, Consequences
+- Update status: Proposed → Accepted → Deprecated/Superseded
+
+**PRD Guidelines:**
+- Include: Overview, Goals, User Stories, Requirements, Design, Timeline
+- Keep status current: Draft → In Review → Approved → In Development → Completed
+
+See `/docs/README.md` for detailed templates and guidelines.
+
 ## Summary
 
 - ✅ Always work in feature branches (`feat/*`)
 - ✅ Always commit AND push changes
 - ✅ Use clear commit messages
+- ✅ Document major decisions in ADRs
+- ✅ Create PRDs for new features
 - ❌ Never commit directly to `main`
 - ❌ Never skip pushing after committing
