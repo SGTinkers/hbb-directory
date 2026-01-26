@@ -2,19 +2,29 @@
 
 This directory contains all project documentation organized by type.
 
+Each subdirectory contains a `CLAUDE.md` file with AI-focused instructions and templates.
+
 ## Directory Structure
 
 ### `/backlog`
 Product backlog, user stories, and feature requests.
 
+See `/backlog/CLAUDE.md` for guidelines.
+
 ### `/prds`
 Product Requirements Documents - detailed specifications for features and products.
+
+See `/prds/CLAUDE.md` for PRD template.
 
 ### `/architecture`
 System architecture, technical design documents, diagrams, and infrastructure documentation.
 
+See `/architecture/CLAUDE.md` for guidelines.
+
 ### `/decisions`
 Architecture Decision Records (ADRs) and other important technical decisions.
+
+See `/decisions/CLAUDE.md` for ADR template and numbering.
 
 ## Documentation Guidelines
 
