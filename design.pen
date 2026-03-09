@@ -2982,6 +2982,1436 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "1LetA",
+      "x": 1760,
+      "y": 0,
+      "name": "05 — All Categories",
+      "clip": true,
+      "width": 390,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ATsHP",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 62,
+          "fill": "$color-primary",
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Nnl5v",
+              "name": "timeText",
+              "fill": "#FFFFFF",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Ygy2j",
+              "name": "Status Icons",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "zTgxy",
+                  "name": "signalIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "signal",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "iFlQO",
+                  "name": "wifiIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "TTPT5",
+                  "name": "batteryIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "battery-full",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7U2ED",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$color-primary",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            24,
+            28,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "0XKwg",
+              "name": "title",
+              "fill": "#FFFFFF",
+              "content": "Categories",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 28,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "TNOAK",
+              "name": "subtitle",
+              "fill": "#FFFFFFBB",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Explore home-based food by category",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qu0Mv",
+          "name": "Category Cards Grid",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "aFg8R",
+              "name": "Row 1",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NyKJJ",
+                  "name": "Cakes Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "vasylyna_7010",
+                    "link": "https://unsplash.com/@vasylyna_7010",
+                    "author": "Vasylyna Kucherepa"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1586126464071-af59bd2e6c2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2MjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "obLZt",
+                      "name": "name1",
+                      "fill": "#FFFFFF",
+                      "content": "Cakes",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vITHd",
+                      "name": "count1",
+                      "fill": "#FFFFFFBB",
+                      "content": "24 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9DN7D",
+                  "name": "Cookies Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "jacob225",
+                    "link": "https://unsplash.com/@jacob225",
+                    "author": "Jacob Thomas"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1657000154417-bcebe78dd105?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2MjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ehDHi",
+                      "name": "name2",
+                      "fill": "#FFFFFF",
+                      "content": "Cookies",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sa4o4",
+                      "name": "count2",
+                      "fill": "#FFFFFFBB",
+                      "content": "18 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EX6If",
+              "name": "Row 2",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vDw9u",
+                  "name": "Meals Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "le_y0u",
+                    "link": "https://unsplash.com/@le_y0u",
+                    "author": "You Le"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1766050587783-1c90751275dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gLDAV",
+                      "name": "name3",
+                      "fill": "#FFFFFF",
+                      "content": "Meals",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AVE7X",
+                      "name": "count3",
+                      "fill": "#FFFFFFBB",
+                      "content": "31 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sRYEW",
+                  "name": "Bread Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hhj8861",
+                    "link": "https://unsplash.com/@hhj8861",
+                    "author": "Hazel J"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1771857607729-181ea40ca5c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zj6Dr",
+                      "name": "name4",
+                      "fill": "#FFFFFF",
+                      "content": "Bread",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8TwqD",
+                      "name": "count4",
+                      "fill": "#FFFFFFBB",
+                      "content": "12 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WOOgJ",
+              "name": "Row 3",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gzUUw",
+                  "name": "Pastry Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "atyr",
+                    "link": "https://unsplash.com/@atyr",
+                    "author": "Artur Ament"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1749997247764-b0652868059b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2Mjd8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lCZGB",
+                      "name": "name5",
+                      "fill": "#FFFFFF",
+                      "content": "Pastry",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8I58m",
+                      "name": "count5",
+                      "fill": "#FFFFFFBB",
+                      "content": "15 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BDcER",
+                  "name": "Snacks Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "glencarrie",
+                    "link": "https://unsplash.com/@glencarrie",
+                    "author": "Glen Carrie"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1771016834080-79b736424c70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2Mjh8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kJRhI",
+                      "name": "name6",
+                      "fill": "#FFFFFF",
+                      "content": "Snacks",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "imlkX",
+                      "name": "count6",
+                      "fill": "#FFFFFFBB",
+                      "content": "22 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pBEGM",
+              "name": "Row 4",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "J1LAB",
+                  "name": "Chocolate Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "haseebm",
+                    "link": "https://unsplash.com/@haseebm",
+                    "author": "Haseeb Modi"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1678969405727-1a1e2a572119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2Mjl8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BYRTm",
+                      "name": "name7",
+                      "fill": "#FFFFFF",
+                      "content": "Chocolate",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GbMug",
+                      "name": "count7",
+                      "fill": "#FFFFFFBB",
+                      "content": "8 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WV7u6",
+                  "name": "Drinks Card",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "montatip",
+                    "link": "https://unsplash.com/@montatip",
+                    "author": "montatip lilitsanong"
+                  },
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": [
+                    {
+                      "type": "image",
+                      "enabled": true,
+                      "url": "https://images.unsplash.com/photo-1620490448396-d03342d5f352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY2MzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                      "mode": "fill"
+                    },
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 0,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#00000010",
+                          "position": 0
+                        },
+                        {
+                          "color": "#000000CC",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fvf2v",
+                      "name": "name8",
+                      "fill": "#FFFFFF",
+                      "content": "Drinks",
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y9arX",
+                      "name": "count8",
+                      "fill": "#FFFFFFBB",
+                      "content": "6 listings",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "m302s",
+          "name": "Bottom Nav",
+          "width": "fill_container",
+          "height": 82,
+          "fill": "$bg-white",
+          "padding": [
+            12,
+            21,
+            21,
+            21
+          ],
+          "justifyContent": "space_around",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xuFfJ",
+              "name": "Home Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "fYutI",
+                  "name": "homeIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "house",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
+                },
+                {
+                  "type": "text",
+                  "id": "nyUAY",
+                  "name": "homeLabel",
+                  "fill": "$text-tertiary",
+                  "content": "HOME",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5boka",
+              "name": "Search Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "vOKLY",
+                  "name": "searchIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
+                },
+                {
+                  "type": "text",
+                  "id": "BV5qF",
+                  "name": "searchLabel",
+                  "fill": "$text-tertiary",
+                  "content": "SEARCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XUSkU",
+              "name": "Categories Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "yFSgD",
+                  "name": "catIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "grid-2x2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$color-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "HoPtr",
+                  "name": "catLabel",
+                  "fill": "$color-primary",
+                  "content": "CATEGORIES",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zoNB2",
+      "x": 2200,
+      "y": 0,
+      "name": "06 — Empty Search State",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "$bg-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "JWGvW",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 62,
+          "fill": "$color-primary",
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "RO4ns",
+              "name": "time",
+              "fill": "$text-on-primary",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "8LKTm",
+              "name": "Status Icons",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "X8Fe8",
+                  "name": "sigIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-on-primary"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "nHTfz",
+                  "name": "wifiIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-on-primary"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "KmZfo",
+                  "name": "battIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "battery-full",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-on-primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uhpLn",
+          "name": "Search Header",
+          "width": "fill_container",
+          "fill": "$color-primary",
+          "gap": 12,
+          "padding": [
+            16,
+            24,
+            20,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "65Did",
+              "name": "backArrow",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "arrow-left",
+              "iconFontFamily": "lucide",
+              "fill": "$text-on-primary"
+            },
+            {
+              "type": "frame",
+              "id": "AP5un",
+              "name": "Search Bar",
+              "width": "fill_container",
+              "height": 44,
+              "fill": "$bg-white",
+              "cornerRadius": 24,
+              "gap": 10,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "v6CqK",
+                  "name": "searchIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
+                },
+                {
+                  "type": "text",
+                  "id": "hZZIw",
+                  "name": "searchText",
+                  "fill": "$text-primary",
+                  "content": "durian puffs",
+                  "fontFamily": "Inter",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9BE7H",
+          "name": "Filter Pills Row",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "gap": 8,
+          "padding": [
+            12,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "eSGKI",
+              "name": "All Categories Pill",
+              "height": 36,
+              "fill": "$bg-white",
+              "cornerRadius": 20,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-default"
+              },
+              "padding": [
+                0,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dWPau",
+                  "name": "pill1Text",
+                  "fill": "$text-primary",
+                  "content": "All Categories",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XOen9",
+              "name": "All Areas Pill",
+              "height": 36,
+              "fill": "$bg-white",
+              "cornerRadius": 20,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-default"
+              },
+              "padding": [
+                0,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sUyLZ",
+                  "name": "pill2Text",
+                  "fill": "$text-primary",
+                  "content": "All Areas",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KWIfx",
+          "name": "Empty State Section",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            60,
+            40
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon_font",
+              "id": "rbayl",
+              "name": "searchXIcon",
+              "width": 56,
+              "height": 56,
+              "iconFontName": "search-x",
+              "iconFontFamily": "lucide",
+              "fill": "$text-tertiary"
+            },
+            {
+              "type": "text",
+              "id": "OB3Wp",
+              "name": "emptyTitle",
+              "fill": "$text-primary",
+              "content": "No results found",
+              "textAlign": "center",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "VAnNP",
+              "name": "emptyDesc",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We couldn't find any home-based businesses matching \"durian puffs\". Try a different search term or browse by category.",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hUI8H",
+          "name": "Suggestions Section",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            24,
+            24,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5kgug",
+              "name": "suggestLabel",
+              "fill": "$text-primary",
+              "content": "Popular categories",
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "RUqQ3",
+              "name": "Pill Row 1",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JRvKl",
+                  "name": "Cakes Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lUszC",
+                      "name": "cakesText",
+                      "fill": "$text-primary",
+                      "content": "🎂 Cakes",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gM0u9",
+                  "name": "Cookies Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nr9Ku",
+                      "name": "cookiesText",
+                      "fill": "$text-primary",
+                      "content": "🍪 Cookies",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1lXT3",
+                  "name": "Meals Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FQzIB",
+                      "name": "mealsText",
+                      "fill": "$text-primary",
+                      "content": "🍛 Meals",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "po1Cn",
+              "name": "Pill Row 2",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yobAO",
+                  "name": "Pastry Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oFKbM",
+                      "name": "pastryText",
+                      "fill": "$text-primary",
+                      "content": "🍰 Pastry",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nuvsW",
+                  "name": "Snacks Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "utcv4",
+                      "name": "snacksText",
+                      "fill": "$text-primary",
+                      "content": "🧁 Snacks",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4VBf0",
+                  "name": "Bread Pill",
+                  "height": 40,
+                  "fill": "$bg-white",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-default"
+                  },
+                  "gap": 6,
+                  "padding": [
+                    0,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d4QU9",
+                      "name": "breadText",
+                      "fill": "$text-primary",
+                      "content": "🥐 Bread",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Nnnfe",
+          "name": "Spacer",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "5kNmT",
+          "name": "Bottom Nav",
+          "width": "fill_container",
+          "height": 82,
+          "fill": "$bg-white",
+          "padding": [
+            12,
+            21,
+            21,
+            21
+          ],
+          "justifyContent": "space_around",
+          "children": [
+            {
+              "type": "frame",
+              "id": "7xj7j",
+              "name": "Home Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "FhlOM",
+                  "name": "homeIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "house",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
+                },
+                {
+                  "type": "text",
+                  "id": "u36ZP",
+                  "name": "homeLabel",
+                  "fill": "$text-tertiary",
+                  "content": "HOME",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wNI1g",
+              "name": "Search Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "4LBUt",
+                  "name": "searchTabIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "$color-primary"
+                },
+                {
+                  "type": "text",
+                  "id": "QNRrn",
+                  "name": "searchTabLabel",
+                  "fill": "$color-primary",
+                  "content": "SEARCH",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "600",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jAta0",
+              "name": "Categories Tab",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "mVuZz",
+                  "name": "catIcon",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "grid-2x2",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
+                },
+                {
+                  "type": "text",
+                  "id": "FBwo3",
+                  "name": "catLabel",
+                  "fill": "$text-tertiary",
+                  "content": "CATEGORIES",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
