@@ -124,6 +124,16 @@ Each listing contains:
 | C-07 | Support incremental crawls (don't re-process known accounts) | Should |
 | C-08 | Configurable hashtag list and seed account list | Must |
 | C-09 | Rate limiting and respectful crawling practices | Must |
+| C-10 | AI classification: detect if account is a genuine HBB | Must |
+| C-11 | AI extraction: auto-assign food sub-category and tags | Must |
+| C-12 | AI extraction: extract contacts, hours, planning area from bio text | Must |
+| C-13 | AI generation: generate clean business description from bio | Should |
+
+**AI Classification**: The crawler uses Claude API (Haiku for cost efficiency) to:
+1. **HBB Detection** — Determine if an Instagram account is genuinely a home-based business (vs commercial/personal)
+2. **Category & Tag Extraction** — Auto-assign food sub-category and relevant tags
+3. **Entity Extraction** — Parse unstructured bio text into structured fields (WhatsApp, hours, area)
+4. **Description Generation** — Create clean business descriptions from emoji-heavy Instagram bios
 
 **Initial hashtag seed list** (configurable):
 - #sghomebaker, #homebakesg, #sgbakes, #homebakingsg

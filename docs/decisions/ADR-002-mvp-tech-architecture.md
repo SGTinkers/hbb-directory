@@ -62,6 +62,18 @@ The crawler runs locally on a developer machine, not as a deployed service:
 
 The crawler writes raw data to Supabase. Admin then reviews and approves listings through the web app.
 
+### AI Classification: Claude API
+
+**Chosen over**: OpenAI GPT-4o-mini, local models (Ollama/Llama)
+
+The crawler uses Claude API (Haiku model for cost efficiency) to process scraped profiles:
+- **HBB Detection**: Classify whether an account is genuinely a home-based business
+- **Category & Tag Extraction**: Auto-assign food sub-category and tags from profile data
+- **Entity Extraction**: Parse unstructured bio text into structured fields (contacts, hours, area)
+- **Description Generation**: Create clean descriptions from emoji-heavy Instagram bios
+
+Claude was chosen for its strong structured extraction capabilities. Haiku keeps costs minimal (~$0.25/MTok input, ~$1.25/MTok output) — processing 100 profiles should cost well under $1.
+
 ### Admin Dashboard: Same App
 
 **Chosen over**: Separate Next.js/React app
@@ -100,8 +112,9 @@ packages/
 | Database + Auth + Storage | Supabase (free tier) | $0 |
 | Web Hosting | Railway / Render (free tier) | $0 |
 | Crawler | Local machine | $0 |
+| AI Classification | Claude API (Haiku) | <$1 per crawl run |
 | Domain | TBD | ~$1/mo |
-| **Total** | | **~$1/mo** |
+| **Total** | | **~$2/mo** |
 
 ## Consequences
 

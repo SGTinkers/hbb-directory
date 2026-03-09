@@ -4,7 +4,9 @@ This directory contains system architecture, technical design documents, and inf
 
 ## Contents
 
-<!-- List architecture documents here -->
+No active architecture docs yet. See [ADR-002](../decisions/ADR-002-mvp-tech-architecture.md) for current architecture decisions.
+
+Archived: [Crawler Workflows (Full Vision)](../archive/hbb-crawler-workflows.md)
 
 ## Document Types
 

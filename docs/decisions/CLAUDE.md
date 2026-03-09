@@ -4,7 +4,8 @@ This directory contains records of important technical and architectural decisio
 
 ## Active Decisions
 
-<!-- List ADRs here with links -->
+- [ADR-001: Turbo Monorepo with pnpm](./ADR-001-monorepo-setup.md) — Accepted
+- [ADR-002: MVP Tech Architecture](./ADR-002-mvp-tech-architecture.md) — Accepted
 
 ## ADR Template
 

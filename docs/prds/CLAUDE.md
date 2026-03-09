@@ -6,6 +6,10 @@ This directory contains detailed PRDs for features and products.
 
 - [MVP: Home-Based Business Directory (Food & Bakes)](./mvp-hbb-directory.md) — Draft
 
+## Archived PRDs
+
+- [HBB Crawler System (Full Vision)](../archive/hbb-crawler-system.md) — Archived, superseded by MVP PRD crawler section
+
 ## PRD Template
 
 When creating a new PRD, use this structure:
