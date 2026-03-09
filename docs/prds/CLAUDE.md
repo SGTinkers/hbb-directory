@@ -4,7 +4,7 @@ This directory contains detailed PRDs for features and products.
 
 ## Active PRDs
 
-<!-- List active PRDs here -->
+- [MVP: Home-Based Business Directory (Food & Bakes)](./mvp-hbb-directory.md) — Draft
 
 ## PRD Template
 
