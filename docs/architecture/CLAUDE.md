@@ -4,7 +4,9 @@ This directory contains system architecture, technical design documents, and inf
 
 ## Contents
 
-No active architecture docs yet. See [ADR-002](../decisions/ADR-002-mvp-tech-architecture.md) for current architecture decisions.
+- [MVP Crawler Workflows](./mvp-crawler-workflows.md) — System architecture and data flow diagrams for the MVP crawler
+
+See also: [ADR-002](../decisions/ADR-002-mvp-tech-architecture.md) for architecture decisions.
 
 Archived: [Crawler Workflows (Full Vision)](../archive/hbb-crawler-workflows.md)
 
