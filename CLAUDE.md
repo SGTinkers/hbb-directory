@@ -82,6 +82,21 @@ git branch
 git status
 ```
 
+## Design
+
+### UI/UX Design File
+
+- **`/design.pen`**: Main design file (Pencil format) containing all UI/UX screens
+  - **Mobile screens** (390px): Homepage, Search Results, Listing Detail, Category Landing, All Categories, Empty Search State
+  - **Desktop screens** (1280px): Desktop versions of all the above
+  - **Design system**: Navy & Coral Pink palette, Plus Jakarta Sans (headlines), Inter (body)
+  - **Key design variables**: Defined in the .pen file — use `$color-primary`, `$color-secondary`, `$color-accent`, etc.
+
+**When implementing UI:**
+- Reference `design.pen` for layout, spacing, typography, and color decisions
+- Use the Pencil MCP tools (`batch_get`, `get_screenshot`) to inspect specific screens
+- Do NOT use `Read` or `Grep` on .pen files — they are encrypted, use Pencil tools only
+
 ## Documentation Structure
 
 ### `/docs` Directory
