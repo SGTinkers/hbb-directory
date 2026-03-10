@@ -2874,224 +2874,399 @@
             },
             {
               "type": "frame",
-              "id": "YnRNa",
+              "id": "74M6N",
               "name": "Category Grid",
               "width": "fill_container",
-              "gap": 16,
+              "layout": "vertical",
+              "gap": 20,
               "children": [
                 {
                   "type": "frame",
-                  "id": "EdGQO",
-                  "name": "Cakes Tile",
-                  "clip": true,
+                  "id": "iRsue",
+                  "name": "Row 1",
                   "width": "fill_container",
-                  "height": 100,
-                  "fill": "#1E3A5F",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
+                  "gap": 20,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "ERcBO",
-                      "name": "tile1Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🎂",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "Q5brp",
+                      "name": "Cakes Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1610919081430-224d57735ea4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zHjQH",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Cakes",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gf13u",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "24 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "TJMk9",
-                      "name": "tile1Name",
-                      "fill": "#FFFFFF",
-                      "content": "Cakes",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
+                      "type": "frame",
+                      "id": "2gUgN",
+                      "name": "Cookies Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1766226763094-2a78cc546d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O7zfi",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Cookies",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "codKT",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "18 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fXpMX",
+                      "name": "Meals Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1770966485209-e20d97337f1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O9zbg",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Meals",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "2Hd9i",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "32 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "KUGW9",
-                  "name": "Cookies Tile",
-                  "clip": true,
+                  "id": "MQFJ7",
+                  "name": "Row 2",
                   "width": "fill_container",
-                  "height": 100,
-                  "fill": "#F472B6",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
+                  "gap": 20,
                   "children": [
                     {
-                      "type": "text",
-                      "id": "PYGnn",
-                      "name": "tile2Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🍪",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "mex30",
+                      "name": "Bread Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1650626105235-a244ad2eb4d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODR8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p3mhZ",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Bread",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "26HOH",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "15 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "3pWfU",
-                      "name": "tile2Name",
-                      "fill": "#FFFFFF",
-                      "content": "Cookies",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "n4s14",
-                  "name": "Meals Tile",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 100,
-                  "fill": "#3B82F6",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "brGjx",
-                      "name": "tile3Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🍛",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
+                      "type": "frame",
+                      "id": "G23UU",
+                      "name": "Pastry Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1733754348873-feeb45df3bab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODV8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E9pTx",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Pastry",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RoYek",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "21 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "h43Lp",
-                      "name": "tile3Name",
-                      "fill": "#FFFFFF",
-                      "content": "Meals",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "7WEg2",
-                  "name": "Bread Tile",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 100,
-                  "fill": "#6366F1",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "TBZ5n",
-                      "name": "tile4Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🥐",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "SBF4b",
-                      "name": "tile4Name",
-                      "fill": "#FFFFFF",
-                      "content": "Bread",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "WuO7P",
-                  "name": "Pastry Tile",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 100,
-                  "fill": "#EC4899",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "6daRc",
-                      "name": "tile5Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🍰",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "n3lEx",
-                      "name": "tile5Name",
-                      "fill": "#FFFFFF",
-                      "content": "Pastry",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "4cMzv",
-                  "name": "Snacks Tile",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 100,
-                  "fill": "#2D5280",
-                  "cornerRadius": 20,
-                  "layout": "vertical",
-                  "gap": 6,
-                  "padding": 18,
-                  "justifyContent": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "G4Tex",
-                      "name": "tile6Emoji",
-                      "fill": "#FFFFFF",
-                      "content": "🧁",
-                      "fontFamily": "Inter",
-                      "fontSize": 24,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "MSsmi",
-                      "name": "tile6Name",
-                      "fill": "#FFFFFF",
-                      "content": "Snacks",
-                      "fontFamily": "Plus Jakarta Sans",
-                      "fontSize": 15,
-                      "fontWeight": "700"
+                      "type": "frame",
+                      "id": "31u4e",
+                      "name": "Snacks Tile",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": [
+                        {
+                          "type": "image",
+                          "enabled": true,
+                          "url": "https://images.unsplash.com/photo-1730587216688-81d00a608165?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwNjY5ODV8&ixlib=rb-4.1.0&q=80&w=1080",
+                          "mode": "fill"
+                        },
+                        {
+                          "type": "gradient",
+                          "gradientType": "linear",
+                          "enabled": true,
+                          "rotation": 0,
+                          "size": {
+                            "height": 1
+                          },
+                          "colors": [
+                            {
+                              "color": "#00000010",
+                              "position": 0
+                            },
+                            {
+                              "color": "#000000CC",
+                              "position": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "cornerRadius": 20,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MbnO2",
+                          "name": "tileName",
+                          "fill": "#FFFFFF",
+                          "content": "Snacks",
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RYi2Y",
+                          "name": "tileCount",
+                          "fill": "#FFFFFFBB",
+                          "content": "14 listings",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
                     }
                   ]
                 }
