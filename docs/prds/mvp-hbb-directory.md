@@ -3,7 +3,7 @@
 **Status**: Draft
 **Owner**: TBD
 **Created**: 2026-03-09
-**Last Updated**: 2026-03-09
+**Last Updated**: 2026-03-10
 
 ---
 
@@ -82,7 +82,7 @@ Validate the concept: prove that a curated directory of home-based food business
 | F-06 | Combined search + filter (keyword + category + area) | Must |
 | F-07 | SEO-optimized pages (SSR, meta tags, structured data) | Must |
 | F-08 | Mobile-responsive design | Must |
-| F-09 | Click-to-contact actions (WhatsApp, Instagram, phone, email) | Must |
+| F-09 | Click-to-contact actions (WhatsApp, Instagram, phone) | Must |
 | F-10 | Category landing pages (e.g., /cakes, /cookies) for SEO | Should |
 
 #### Listing Data Model
@@ -98,7 +98,6 @@ Each listing contains:
 | Planning area | Yes | Admin-assigned |
 | Contact: WhatsApp number | No | Crawler / Admin |
 | Contact: Phone | No | Crawler / Admin |
-| Contact: Email | No | Crawler / Admin |
 | Instagram handle | No | Crawler / Admin |
 | Other social links | No | Admin |
 | Photos (up to 5) | No | Crawler / Admin |
@@ -145,7 +144,7 @@ Each listing contains:
 | ID | Requirement | Priority |
 |----|------------|----------|
 | A-01 | Admin authentication (simple, e.g., email/password) | Must |
-| A-02 | View all listings with status filters (pending/approved/rejected) | Must |
+| A-02 | View all listings with status filters (draft/pending/approved/rejected/archived) | Must |
 | A-03 | Review and approve/reject crawler-discovered listings | Must |
 | A-04 | Edit any listing field before approving | Must |
 | A-05 | Manually create new listings | Must |
@@ -184,16 +183,15 @@ Each listing contains:
    - Listing cards in grid layout
    - Sidebar or top-bar filters (category, area)
    - Search bar
-   - Pagination or infinite scroll
+   - Infinite scroll
    - Empty state with suggestions
 
 3. **Listing Detail Page**
    - Business name, description
    - Photo gallery
-   - Contact actions (WhatsApp, Instagram, phone, email) — prominent CTAs
+   - Contact actions (WhatsApp, Instagram, phone) — prominent CTAs
    - Category and area tags
    - Operating hours, delivery/pickup info
-   - Map showing general area (planning area level, not exact address)
 
 4. **Category Landing Pages**
    - SEO-optimized pages per sub-category

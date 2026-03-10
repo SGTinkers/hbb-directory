@@ -3258,6 +3258,164 @@
           ]
         },
         {
+          "type": "frame",
+          "id": "Ua4JM",
+          "name": "Newest Additions Section",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            60
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q8LSX",
+              "name": "Newest Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JuQET",
+                  "name": "Featured Title",
+                  "fill": "$text-primary",
+                  "content": "Newest Additions",
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "NQA58",
+                  "name": "Featured See All",
+                  "fill": "$color-secondary",
+                  "content": "See all →",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5zZTf",
+              "name": "Newest Grid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "id": "YPjWu",
+                  "type": "ref",
+                  "ref": "1ngh3",
+                  "width": "fill_container",
+                  "name": "lc5",
+                  "descendants": {
+                    "Md40h": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1732636592800-581be7a5a818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwOTYyOTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "wmzBF": {
+                      "content": "The Cookie Jar SG"
+                    },
+                    "IvXCK": {
+                      "content": "🍪 Cookies"
+                    },
+                    "5EsE4": {
+                      "content": "📍 Jurong East"
+                    }
+                  }
+                },
+                {
+                  "id": "ImHNv",
+                  "type": "ref",
+                  "ref": "1ngh3",
+                  "width": "fill_container",
+                  "name": "lc6",
+                  "descendants": {
+                    "Md40h": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1694168860249-6b55fc59d641?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwOTYyOTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "wmzBF": {
+                      "content": "Auntie Ros Kuih"
+                    },
+                    "IvXCK": {
+                      "content": "🍡 Snacks"
+                    },
+                    "5EsE4": {
+                      "content": "📍 Hougang"
+                    }
+                  }
+                },
+                {
+                  "id": "kHtbC",
+                  "type": "ref",
+                  "ref": "1ngh3",
+                  "width": "fill_container",
+                  "name": "lc7",
+                  "descendants": {
+                    "Md40h": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1723475158232-819e29803f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwOTYyOTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "wmzBF": {
+                      "content": "Rina's Bread Box"
+                    },
+                    "IvXCK": {
+                      "content": "🍞 Bread"
+                    },
+                    "5EsE4": {
+                      "content": "📍 Clementi"
+                    }
+                  }
+                },
+                {
+                  "id": "Vr2tV",
+                  "type": "ref",
+                  "ref": "1ngh3",
+                  "width": "fill_container",
+                  "name": "lc8",
+                  "descendants": {
+                    "Md40h": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1604868962228-04b90fb54932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMwOTYzMDB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "wmzBF": {
+                      "content": "Nasi House SG"
+                    },
+                    "IvXCK": {
+                      "content": "🍛 Meals"
+                    },
+                    "5EsE4": {
+                      "content": "📍 Bedok"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "brKD1",
           "type": "ref",
           "ref": "7JJVJ",
@@ -5920,8 +6078,8 @@
     {
       "type": "text",
       "id": "v4kis",
-      "x": 0,
-      "y": -60,
+      "x": -7,
+      "y": -100,
       "name": "Section: Mobile",
       "fill": "$text-primary",
       "content": "Consumer — Mobile (390px)",
@@ -5933,7 +6091,7 @@
       "type": "text",
       "id": "yW975",
       "x": 0,
-      "y": 1580,
+      "y": 1559,
       "name": "Section: Desktop",
       "fill": "$text-primary",
       "content": "Consumer — Desktop (1280px)",
@@ -6081,6 +6239,36 @@
                       "content": "All (87)"
                     }
                   }
+                },
+                {
+                  "type": "frame",
+                  "id": "37OyV",
+                  "name": "dtabDraft",
+                  "height": 34,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#CBD5E1"
+                  },
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ljM2r",
+                      "name": "pillText",
+                      "fill": "#1E293B",
+                      "content": "Draft (5)",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
                 },
                 {
                   "id": "J32ae",
@@ -8047,59 +8235,55 @@
         },
         {
           "type": "frame",
-          "id": "SqELH",
-          "name": "filterTabs",
+          "id": "HLoZY",
+          "name": "filterDropdown",
           "width": "fill_container",
           "fill": "$bg-primary",
-          "gap": 8,
           "padding": [
             12,
             20
           ],
           "children": [
             {
-              "id": "Od3ej",
-              "type": "ref",
-              "ref": "tsn4K",
-              "name": "pill1",
-              "descendants": {
-                "4INWu": {
-                  "content": "All (87)"
+              "type": "frame",
+              "id": "QiBOG",
+              "name": "statusSelect",
+              "width": "fill_container",
+              "height": 42,
+              "fill": "$bg-white",
+              "cornerRadius": 10,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-default"
+              },
+              "padding": [
+                0,
+                14
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vKjV9",
+                  "name": "selectText",
+                  "fill": "$text-primary",
+                  "content": "All (87)",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "RobA9",
+                  "name": "selectIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "chevron-down",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-tertiary"
                 }
-              }
-            },
-            {
-              "id": "lgIx7",
-              "type": "ref",
-              "ref": "VJP7a",
-              "name": "pill2",
-              "descendants": {
-                "ADerd": {
-                  "content": "Pending (12)"
-                }
-              }
-            },
-            {
-              "id": "cwTiA",
-              "type": "ref",
-              "ref": "VJP7a",
-              "name": "pill3",
-              "descendants": {
-                "ADerd": {
-                  "content": "Approved (58)"
-                }
-              }
-            },
-            {
-              "id": "iWjjz",
-              "type": "ref",
-              "ref": "VJP7a",
-              "name": "pill4",
-              "descendants": {
-                "ADerd": {
-                  "content": "Rejected (9)"
-                }
-              }
+              ]
             }
           ]
         },
@@ -8651,7 +8835,7 @@
       "type": "text",
       "id": "1c02P",
       "x": 0,
-      "y": 4050,
+      "y": 4032,
       "name": "Section: Admin",
       "fill": "$text-primary",
       "content": "Admin Panel",
@@ -19995,8 +20179,8 @@
     {
       "type": "text",
       "id": "CCoE5",
-      "x": 0,
-      "y": 7394,
+      "x": -2,
+      "y": 7375,
       "name": "Design System Label",
       "fill": "$text-primary",
       "content": "Admin Design System — Components",
@@ -20933,40 +21117,6 @@
             },
             {
               "type": "frame",
-              "id": "j7Eya",
-              "name": "Nav Settings",
-              "width": "fill_container",
-              "gap": 12,
-              "padding": [
-                12,
-                20
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "5aM0I",
-                  "name": "navIcon",
-                  "width": 18,
-                  "height": 18,
-                  "iconFontName": "settings",
-                  "iconFontFamily": "lucide",
-                  "fill": "#FFFFFF66"
-                },
-                {
-                  "type": "text",
-                  "id": "a1Va3",
-                  "name": "navText",
-                  "fill": "#FFFFFF99",
-                  "content": "Settings",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
-            {
-              "type": "frame",
               "id": "3EyFT",
               "name": "Nav Logout",
               "width": "fill_container",
@@ -21343,16 +21493,6 @@
               "fontFamily": "Inter",
               "fontSize": 14,
               "fontWeight": "500"
-            },
-            {
-              "type": "text",
-              "id": "Ukgsf",
-              "name": "navAbout",
-              "fill": "$text-secondary",
-              "content": "About",
-              "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
             }
           ]
         },
@@ -21587,7 +21727,7 @@
       "type": "text",
       "id": "elqHW",
       "x": 0,
-      "y": 7390,
+      "y": 7325,
       "name": "Section: Admin Portal",
       "fill": "$color-primary",
       "content": "ADMIN PORTAL COMPONENTS",
@@ -21600,7 +21740,7 @@
       "type": "text",
       "id": "i6C49",
       "x": 0,
-      "y": 8900,
+      "y": 8861,
       "name": "Section: Consumer Website",
       "fill": "$color-primary",
       "content": "CONSUMER WEBSITE COMPONENTS",
